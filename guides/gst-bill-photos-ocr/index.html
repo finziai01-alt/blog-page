@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Read GST Breakup From Bill Photos Automatically (2026) | Finzi AI</title>
+<meta name="description" content="Vendor, GSTIN, HSN, CGST/SGST/IGST and totals from a photo of a bill. How automatic GST reading works, where it fails, and how to verify what it reads.">
+<link rel="canonical" href="https://blog-page.finziai01.workers.dev/guides/gst-bill-photos-ocr/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Finzi AI">
+<meta property="og:title" content="How to Read GST Breakup From Bill Photos Automatically">
+<meta property="og:description" content="What it takes to turn a photo of a GST bill into verified fields — and why the verification step matters more than the reading.">
+<meta property="og:url" content="https://blog-page.finziai01.workers.dev/guides/gst-bill-photos-ocr/">
+<meta name="twitter:card" content="summary_large_image"><meta property="og:image" content="https://blog-page.finziai01.workers.dev/assets/og.png">
+<meta name="theme-color" content="#1E40AF">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to read GST breakup from bill photos automatically",
+  "description": "A four-step workflow: photograph the bill clearly, read every field including GSTIN and tax split, show each field beside the original for approval, and flag any calculated total for verification.",
+  "step": [
+    { "@type": "HowToStep", "name": "Photograph the bill clearly", "text": "Flat, well-lit, all four corners visible. Phone photos of printed GST bills are the normal input, not an edge case." },
+    { "@type": "HowToStep", "name": "Read every field including the tax split", "text": "Vendor, GSTIN, invoice number, date, HSN codes, taxable value, CGST, SGST, IGST and the grand total are read from the document." },
+    { "@type": "HowToStep", "name": "Show each field beside the original", "text": "Extracted fields appear next to the photo so verification is a glance, not a transcription exercise." },
+    { "@type": "HowToStep", "name": "Flag calculated totals", "text": "If a total is not printed on the bill, the calculated figure is clearly marked for you to verify before anything is saved." }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://blog-page.finziai01.workers.dev/" },
+    { "@type": "ListItem", "position": 2, "name": "Guide: GST from bill photos", "item": "https://blog-page.finziai01.workers.dev/guides/gst-bill-photos-ocr/" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can software read GST breakup from a photo?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes — for clear photos of printed bills, vendor name, GSTIN, invoice number, date, taxable value and the CGST/SGST/IGST split are read automatically. The photo must be flat, lit and fully in frame." }
+    },
+    {
+      "@type": "Question",
+      "name": "What does automatic GST reading miss?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Handwriting, heavy creases, glare, badly cropped photos and bills with non-standard layouts. Treat those as drafts to verify rather than facts to trust blindly." }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know the GST numbers are right?",
+      "acceptedAnswer": { "@type": "Answer", "text": "By looking at them. Each field is shown beside the original document, so checking the split against the photo takes seconds. Calculated totals — where the bill didn't print one — are flagged explicitly." }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I try this with Finzi AI?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Book a demo from the website. Try it free — your first bills are on us." }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-head">
+  <div class="wrap head-inner">
+    <a class="brand" href="/">
+      <svg class="spark" viewBox="0 0 64 64" aria-hidden="true"><path d="M32 12 C35.6 26.2 37.8 28.4 52 32 C37.8 35.6 35.6 37.8 32 52 C28.4 37.8 26.2 35.6 12 32 C26.2 28.4 28.4 26.2 32 12 Z"/></svg>
+      FINZI <em>ai</em>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/for-accountants/">For accountants</a>
+      <a href="/for-businesses/">For businesses</a>
+      <a href="/#how">How it works</a>
+      <a href="/compare/finzi-vs-tally/">Compare</a>
+      <a href="/about/">About</a>
+    </nav>
+    <a class="btn btn-primary btn-sm" href="mailto:contact@finziai.in?subject=Finzi%20AI%20demo%20request">Book a demo</a>
+  </div>
+</header>
+
+<main id="main">
+  <nav class="crumbs wrap" aria-label="Breadcrumb">
+    <ol>
+      <li><a href="/">Home</a></li>
+      <li aria-current="page">Guide: GST from bill photos</li>
+    </ol>
+  </nav>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <h1>How to read GST breakup from bill photos, automatically.</h1>
+      <p class="lede">A photo of a bill is not data — until something reads it. Here is what automatic GST reading actually does, where it fails, and why the verification step is the part that matters.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap prose">
+      <h2>What's actually on a GST bill</h2>
+      <p>Beneath the vendor name and the item lines sits the part your books need: the GSTIN of each party, the invoice number and date, HSN or SAC codes, taxable value, and the tax split — CGST and SGST for intra-state supply, IGST for inter-state — adding up to the grand total. When that breakup is typed by hand, every digit is a chance to transpose a number, and a wrong GST figure doesn't stay small: it flows into your returns.</p>
+
+      <h2>The four-step workflow</h2>
+      <ol>
+        <li><strong>Photograph the bill clearly.</strong> Flat, well-lit, all four corners visible. Phone photos of printed bills are the normal input — this is not a "scan it perfectly" workflow.</li>
+        <li><strong>Read every field, including the tax split.</strong> Vendor, GSTIN, invoice number, date, HSN codes, taxable value, CGST, SGST, IGST and the grand total — read from the document itself. GST is taken exactly as printed.</li>
+        <li><strong>Show each field beside the original.</strong> Extracted fields appear next to the photo, so verification is a glance at the original, not a second transcription.</li>
+        <li><strong>Flag calculated totals.</strong> If the bill doesn't print a total, the calculated figure is clearly marked for you to verify before anything is saved. A number you can't see on the document should never enter your books silently.</li>
+      </ol>
+
+      <h2>Where it fails — honestly</h2>
+      <ul>
+        <li><strong>Handwriting:</strong> readable when neat, unreliable when not. Treat as draft.</li>
+        <li><strong>Glare, creases, cuts:</strong> the photo quality sets the ceiling. Re-shoot instead of arguing with the output.</li>
+        <li><strong>Non-standard layouts:</strong> unusual formats exist. When a field looks wrong, it's cheaper to check the photo than to trust the guess.</li>
+        <li><strong>The point of approval:</strong> every one of these failure modes is handled by the same control — fields shown beside the original, nothing saved until a person approves it.</li>
+      </ul>
+
+      <div class="callout">
+        <p><b>Where Finzi AI fits:</b> Drop in a photo, PDF or scan — Finzi reads every field including the GST breakup, shows it beside your document, and waits for your approval. <a href="/features/gst-bill-reading/">See GST bill reading</a> or <a href="mailto:contact@finziai.in?subject=Finzi%20AI%20demo%20request">book a demo</a>.</p>
+      </div>
+
+      <h2>Before and after, honestly</h2>
+      <p><strong>Before:</strong> a photo becomes a typed entry; the GST split is transcribed by hand; errors surface when the return is prepared, if they surface at all.</p>
+      <p><strong>After:</strong> a photo becomes fields shown beside the original; the GST split is read as printed and approved by you; calculated totals announce themselves as calculated. The return prep starts from numbers someone already looked at.</p>
+
+      <h2>Common questions</h2>
+      <div class="faq">
+        <details>
+          <summary>Can software read GST breakup from a photo?</summary>
+          <div class="faq-body">
+            <p>Yes — for clear photos of printed bills, vendor name, GSTIN, invoice number, date, taxable value and the CGST/SGST/IGST split are read automatically. The photo must be flat, lit and fully in frame.</p>
+          </div>
+        </details>
+        <details>
+          <summary>What does automatic GST reading miss?</summary>
+          <div class="faq-body">
+            <p>Handwriting, heavy creases, glare, badly cropped photos and bills with non-standard layouts. Treat those as drafts to verify rather than facts to trust blindly.</p>
+          </div>
+        </details>
+        <details>
+          <summary>How do I know the GST numbers are right?</summary>
+          <div class="faq-body">
+            <p>By looking at them. Each field is shown beside the original document, so checking the split against the photo takes seconds. Calculated totals — where the bill didn't print one — are flagged explicitly.</p>
+          </div>
+        </details>
+        <details>
+          <summary>How do I try this with Finzi AI?</summary>
+          <div class="faq-body">
+            <p>Book a demo from this page. Try it free — your first bills are on us.</p>
+          </div>
+        </details>
+      </div>
+
+      <p class="updated">Page updated November 2026 · Related: <a href="/features/gst-bill-reading/">GST bill reading</a> · <a href="/guides/stop-retyping-bills/">stop re-typing bills</a> · <a href="/compare/finzi-vs-cleartax/">Finzi vs ClearTax</a></p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="cta-band">
+        <div>
+          <h2>Photograph one bill. See what Finzi reads.</h2>
+          <p>Bring a real bill to the demo — every field, shown beside your photo.</p>
+        </div>
+        <div class="btn-row">
+          <a class="btn btn-onblue" href="mailto:contact@finziai.in?subject=Finzi%20AI%20demo%20request">Book a demo
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="/">
+          <svg class="spark" viewBox="0 0 64 64" aria-hidden="true"><path d="M32 12 C35.6 26.2 37.8 28.4 52 32 C37.8 35.6 35.6 37.8 32 52 C28.4 37.8 26.2 35.6 12 32 C26.2 28.4 28.4 26.2 32 12 Z"/></svg>
+          FINZI <em>ai</em>
+        </a>
+        <p class="foot-tag">Bills read. Payments matched. Books honest. The AI accounting assistant built for Indian practices and their clients.</p>
+      </div>
+      <div>
+        <h3>Product</h3>
+        <ul>
+          <li><a href="/#how">How it works</a></li>
+          <li><a href="/features/gst-bill-reading/">GST bill reading</a></li>
+          <li><a href="/features/bank-statement-matching/">Bank statement matching</a></li>
+          <li><a href="/features/approval-first-bookkeeping/">Approval-first bookkeeping</a></li>
+          <li><a href="/guides/how-to-handle-company-accounting-with-one-tool/">Accounting with one tool</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>For you</h3>
+        <ul>
+          <li><a href="/for-accountants/">For accountants</a></li>
+          <li><a href="/for-businesses/">For businesses</a></li>
+          <li><a href="/compare/finzi-vs-tally/">Finzi vs Tally</a></li>
+          <li><a href="/compare/finzi-vs-zoho-books/">Finzi vs Zoho Books</a></li>
+          <li><a href="/compare/finzi-vs-cleartax/">Finzi vs ClearTax</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>More</h3>
+        <ul>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/llms.txt">llms.txt</a></li>
+          <li><a href="/pricing.md">pricing.md</a></li>
+          <li><a href="/sitemap.xml">sitemap.xml</a></li>
+          <li><a href="mailto:contact@finziai.in?subject=Finzi%20AI%20demo%20request">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p>© 2026 FARATECH TECHNOLOGIES · FINZI ai</p>
+      <p>Updated November 2026</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

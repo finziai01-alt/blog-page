@@ -48,9 +48,16 @@ Done — the site is live. ✅
 
 1. Open https://search.google.com/search-console with your Google account.
 2. **Add property → URL prefix** → enter your full site URL (`https://blog-page.finziai01.workers.dev`).
-3. Verify with the **HTML file** method: download the verification file Google gives you,
-   drop it into the `_deploy` folder, and upload `_deploy` again (Cloudflare Pages → your project
-   → Create new deployment → drag the folder). Then click **Verify**.
+3. Verify with the **HTML file** method: download the verification file Google gives you
+   (something like `google1234abcd.html`) and save it into the repo root
+   (`C:\Users\Praveen\Documents\Finzi-Site\`). Then either:
+   - tell me "verification file saved" and I'll commit + push it (every push auto-deploys), or
+   - run it yourself: `git add . ; git commit -m "GSC verification" ; git push`
+
+   Wait ~1 minute for the deploy, open
+   `https://blog-page.finziai01.workers.dev/<the-filename>` to confirm it loads, then click
+   **Verify** in Search Console. (The old drag-and-drop-`_deploy` flow is no longer needed —
+   the whole repo root is now deployment-ready.)
 4. In Search Console: **Sitemaps → Add a new sitemap** → enter `sitemap.xml` → Submit.
 5. Use **URL inspection** on your homepage → *Request indexing*. Do the same for
    `/for-accountants/`, `/for-businesses/`, and the guide page.

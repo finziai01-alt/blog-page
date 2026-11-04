@@ -3,10 +3,10 @@
 Tick items off as you go. Everything here is free. Nothing here needs a card.
 
 ## Day 1 — Live + connected
-- [ ] Deploy the site (follow `launch\DEPLOY.md`)
-- [ ] Google Search Console: property added + sitemap submitted + homepage indexing requested
-- [ ] Bing Webmaster Tools: site added (import from GSC) + sitemap submitted
-- [ ] Record the AI-visibility baseline (`launch\AI-VISIBILITY-BASELINE.md`) — do this BEFORE telling anyone about the site
+- [x] Deploy the site (follow `launch\DEPLOY.md`) — live at https://blog-page.finziai01.workers.dev, all REPLACE tokens gone, verified 2026-11-04
+- [ ] Google Search Console: property added + sitemap submitted + homepage indexing requested — **needs your Google account** (exact steps: `launch\DEPLOY.md` Part 2)
+- [ ] Bing Webmaster Tools: site added (import from GSC) + sitemap submitted — **needs your Microsoft account** (Part 3)
+- [ ] Record the AI-visibility baseline (`launch\AI-VISIBILITY-BASELINE.md`) — do this BEFORE telling anyone about the site — **Gemini: all 20 prompts done ✅ (2026-11-04). Perplexity: 1/20 then anonymous limit. ChatGPT/Claude/Copilot: login walls — need signed-in sessions to finish**
 
 ## Day 2 — Foundation check
 - [ ] Re-check the live site on phone + desktop; fix anything broken
