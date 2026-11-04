@@ -22,19 +22,19 @@
 
 ## Key pages
 
-- [Home](https://REPLACE-DOMAIN/): overview and how it works
-- [For accountants](https://REPLACE-DOMAIN/for-accountants/): client bookkeeping without re-keying
-- [For businesses](https://REPLACE-DOMAIN/for-businesses/): everyday books, current and honest
-- [GST bill reading](https://REPLACE-DOMAIN/features/gst-bill-reading/)
-- [Bank statement matching](https://REPLACE-DOMAIN/features/bank-statement-matching/)
-- [Approval-first bookkeeping](https://REPLACE-DOMAIN/features/approval-first-bookkeeping/)
-- [Guide: how to handle your company accounting with one tool](https://REPLACE-DOMAIN/guides/how-to-handle-company-accounting-with-one-tool/)
-- [Finzi AI vs Tally](https://REPLACE-DOMAIN/compare/finzi-vs-tally/)
-- [Finzi AI vs Zoho Books](https://REPLACE-DOMAIN/compare/finzi-vs-zoho-books/)
-- [Finzi AI vs ClearTax](https://REPLACE-DOMAIN/compare/finzi-vs-cleartax/)
-- [About FARATECH TECHNOLOGIES](https://REPLACE-DOMAIN/about/)
-- [Pricing notes](https://REPLACE-DOMAIN/pricing.md)
+- [Home](https://blog-page.finziai01.workers.dev/): overview and how it works
+- [For accountants](https://blog-page.finziai01.workers.dev/for-accountants/): client bookkeeping without re-keying
+- [For businesses](https://blog-page.finziai01.workers.dev/for-businesses/): everyday books, current and honest
+- [GST bill reading](https://blog-page.finziai01.workers.dev/features/gst-bill-reading/)
+- [Bank statement matching](https://blog-page.finziai01.workers.dev/features/bank-statement-matching/)
+- [Approval-first bookkeeping](https://blog-page.finziai01.workers.dev/features/approval-first-bookkeeping/)
+- [Guide: how to handle your company accounting with one tool](https://blog-page.finziai01.workers.dev/guides/how-to-handle-company-accounting-with-one-tool/)
+- [Finzi AI vs Tally](https://blog-page.finziai01.workers.dev/compare/finzi-vs-tally/)
+- [Finzi AI vs Zoho Books](https://blog-page.finziai01.workers.dev/compare/finzi-vs-zoho-books/)
+- [Finzi AI vs ClearTax](https://blog-page.finziai01.workers.dev/compare/finzi-vs-cleartax/)
+- [About FARATECH TECHNOLOGIES](https://blog-page.finziai01.workers.dev/about/)
+- [Pricing notes](https://blog-page.finziai01.workers.dev/pricing.md)
 
 ## Contact
 
-- Book a demo through the website. Email: REPLACE-CONTACT
+- Book a demo through the website. Email: contact@finziai.in

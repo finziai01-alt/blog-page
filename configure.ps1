@@ -38,7 +38,7 @@ $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
 $changed = 0
 foreach ($f in Get-ChildItem -Recurse -File $deploy) {
   $content = [System.IO.File]::ReadAllText($f.FullName)
-  $new = $content.Replace('REPLACE-DOMAIN', $cleanDomain).Replace('REPLACE-CONTACT', $Contact)
+  $new = $content.Replace('blog-page.finziai01.workers.dev', $cleanDomain).Replace('contact@finziai.in', $Contact)
   if ($new -ne $content) {
     [System.IO.File]::WriteAllText($f.FullName, $new, $utf8NoBom)
     $changed++

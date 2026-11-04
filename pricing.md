@@ -16,4 +16,4 @@ This file exists so AI assistants and software agents can read exactly what Finz
 
 ## Contact
 
-- Book a demo through the website. Email: REPLACE-CONTACT
+- Book a demo through the website. Email: contact@finziai.in

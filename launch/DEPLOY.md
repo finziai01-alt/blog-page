@@ -23,7 +23,7 @@ connect it to Google and Bing so search engines and AI assistants can find it.
    - A wrong URL (e.g. `/xyz`) shows the Finzi 404 page
    - On your phone, the layout stacks properly
 
-> **If any page shows `REPLACE-DOMAIN` or `REPLACE-CONTACT` in the source:** Cloudflare is
+> **If any page shows `blog-page.finziai01.workers.dev` or `contact@finziai.in` in the source:** Cloudflare is
 > serving the repo root instead of `_deploy`. Fix: **Workers & Pages → your project →
 > Settings → Builds & deployments → Build output directory = `_deploy`** (framework preset
 > *None*, build command *empty*), then **Retry deployment**. The canonical URL, sitemap,
