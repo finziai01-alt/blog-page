@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "project": "finzi-site",
+  "documented": "2026-11-04",
+  "buildPath": "code",
+  "tokens": {
+    "color": {
+      "blue-900": "#1E3A8A",
+      "blue-800": "#1E40AF",
+      "blue-700": "#1D4ED8",
+      "blue-600": "#2563EB",
+      "blue-500": "#3B82F6",
+      "blue-300": "#93C5FD",
+      "blue-200": "#BFDBFE",
+      "blue-100": "#DBEAFE",
+      "blue-50": "#EFF6FF",
+      "ink": "#1E293B",
+      "ink-soft": "#475569",
+      "ink-mute": "#64748B",
+      "line": "#E2E8F0",
+      "line-soft": "#EEF2F7",
+      "paper": "#FFFFFF",
+      "footer-ground": "#0F1F4B"
+    },
+    "typography": {
+      "family": "\"Segoe UI\", -apple-system, BlinkMacSystemFont, \"Helvetica Neue\", Arial, sans-serif",
+      "body-size": "1.0625rem",
+      "body-line-height": "1.65",
+      "measure": "68ch",
+      "hero-h1": { "base": "2.35rem", "from-760px": "3.3rem" },
+      "page-h1": { "base": "2.2rem", "from-760px": "2.6rem" },
+      "heading-weight": 800,
+      "letter-spacing": "normal"
+    },
+    "space": {
+      "wrap": "1120px",
+      "section-block": "calc(clamp(3.5rem, 8vw, 6.5rem) / 2)"
+    },
+    "shape": {
+      "radius-sm": "10px",
+      "radius": "14px",
+      "radius-lg": "18px",
+      "border": "1px solid #E2E8F0"
+    },
+    "shadow": {
+      "soft": "0 1px 2px rgba(15,23,42,.05), 0 4px 8px -6px rgba(15,23,42,.12)",
+      "card": "0 2px 4px rgba(15,23,42,.06), 0 10px 14px -10px rgba(15,23,42,.16)",
+      "lift": "0 2px 4px rgba(15,23,42,.10), 0 24px 48px -24px rgba(15,23,42,.35)",
+      "rule": "neutral slate only; colored glows banned; lift reserved for borderless panels"
+    },
+    "motion": {
+      "authored-moment": "hero fields check-in (panel-rise + check-pop sequence + ledger-in)",
+      "guard": "prefers-reduced-motion: no-preference",
+      "hover-ms": "140-180",
+      "easing": "ease-out / cubic-bezier(0.16,1,0.3,1)",
+      "bans": "no bounce or elastic easing, no scroll-jacking"
+    }
+  },
+  "components": [
+    "button-primary", "button-ghost", "button-onblue", "demo-panel", "step", "feature-row",
+    "split-card", "secure-panel", "faq (details/summary)", "compare-table", "cta-band",
+    "site-header", "site-footer", "crumbs", "prose", "four-o-four"
+  ],
+  "surfaces": {
+    "selection": "#DBEAFE on #1E3A8A text",
+    "caret": "#1E40AF",
+    "scrollbar-thumb": "#BFDBFE",
+    "focus-ring": "0 0 0 3px #FFFFFF, 0 0 0 6px #93C5FD"
+  }
+}

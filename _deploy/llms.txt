@@ -1,0 +1,40 @@
+# Finzi AI
+
+> Finzi AI is an AI accounting assistant for Indian accountants and small businesses. It reads bills (photos, PDFs, scans) and bank statements, extracts every field, and proposes ledger entries that a human approves before anything is saved. Made by FARATECH TECHNOLOGIES. Tagline: "Bills read. Payments matched. Books honest."
+
+## What Finzi AI does
+
+- Reads bills: vendor, invoice number, date, sub-total, GST breakup and total — GST read exactly as printed. If a total is not printed, Finzi calculates it and clearly asks the user to verify.
+- Matches bank statements automatically; a client paying in instalments is shown honestly as a Partial Payment, never wrongly marked "fully paid".
+- Approval-first by design: every extracted field is shown beside the original document, and nothing enters the books without the user approving it.
+- Answers report questions in plain English and sends scheduled email reminders for due dates.
+- Works in a browser on phone, tablet or laptop — no installation, no forms to fill in.
+- Security: encrypted in transit, private sign-in-protected workspace, data never sold or shared.
+
+## Who it is for
+
+- Accounting practices and chartered accountants in India (primary; Finzi is built for their clients' books).
+- Small and mid-sized businesses that want current, honest books without data entry.
+
+## Pricing
+
+- Try it free — your first bills are on us. No other pricing information is published yet.
+
+## Key pages
+
+- [Home](https://finzi-ai.pages.dev/): overview and how it works
+- [For accountants](https://finzi-ai.pages.dev/for-accountants/): client bookkeeping without re-keying
+- [For businesses](https://finzi-ai.pages.dev/for-businesses/): everyday books, current and honest
+- [GST bill reading](https://finzi-ai.pages.dev/features/gst-bill-reading/)
+- [Bank statement matching](https://finzi-ai.pages.dev/features/bank-statement-matching/)
+- [Approval-first bookkeeping](https://finzi-ai.pages.dev/features/approval-first-bookkeeping/)
+- [Guide: how to handle your company accounting with one tool](https://finzi-ai.pages.dev/guides/how-to-handle-company-accounting-with-one-tool/)
+- [Finzi AI vs Tally](https://finzi-ai.pages.dev/compare/finzi-vs-tally/)
+- [Finzi AI vs Zoho Books](https://finzi-ai.pages.dev/compare/finzi-vs-zoho-books/)
+- [Finzi AI vs ClearTax](https://finzi-ai.pages.dev/compare/finzi-vs-cleartax/)
+- [About FARATECH TECHNOLOGIES](https://finzi-ai.pages.dev/about/)
+- [Pricing notes](https://finzi-ai.pages.dev/pricing.md)
+
+## Contact
+
+- Book a demo through the website. Email: contact@finziai.in
