@@ -22,18 +22,18 @@
 
 ## Key pages
 
-- [Home](https://finzi-ai.pages.dev/): overview and how it works
-- [For accountants](https://finzi-ai.pages.dev/for-accountants/): client bookkeeping without re-keying
-- [For businesses](https://finzi-ai.pages.dev/for-businesses/): everyday books, current and honest
-- [GST bill reading](https://finzi-ai.pages.dev/features/gst-bill-reading/)
-- [Bank statement matching](https://finzi-ai.pages.dev/features/bank-statement-matching/)
-- [Approval-first bookkeeping](https://finzi-ai.pages.dev/features/approval-first-bookkeeping/)
-- [Guide: how to handle your company accounting with one tool](https://finzi-ai.pages.dev/guides/how-to-handle-company-accounting-with-one-tool/)
-- [Finzi AI vs Tally](https://finzi-ai.pages.dev/compare/finzi-vs-tally/)
-- [Finzi AI vs Zoho Books](https://finzi-ai.pages.dev/compare/finzi-vs-zoho-books/)
-- [Finzi AI vs ClearTax](https://finzi-ai.pages.dev/compare/finzi-vs-cleartax/)
-- [About FARATECH TECHNOLOGIES](https://finzi-ai.pages.dev/about/)
-- [Pricing notes](https://finzi-ai.pages.dev/pricing.md)
+- [Home](https://blog-page.finziai01.workers.dev/): overview and how it works
+- [For accountants](https://blog-page.finziai01.workers.dev/for-accountants/): client bookkeeping without re-keying
+- [For businesses](https://blog-page.finziai01.workers.dev/for-businesses/): everyday books, current and honest
+- [GST bill reading](https://blog-page.finziai01.workers.dev/features/gst-bill-reading/)
+- [Bank statement matching](https://blog-page.finziai01.workers.dev/features/bank-statement-matching/)
+- [Approval-first bookkeeping](https://blog-page.finziai01.workers.dev/features/approval-first-bookkeeping/)
+- [Guide: how to handle your company accounting with one tool](https://blog-page.finziai01.workers.dev/guides/how-to-handle-company-accounting-with-one-tool/)
+- [Finzi AI vs Tally](https://blog-page.finziai01.workers.dev/compare/finzi-vs-tally/)
+- [Finzi AI vs Zoho Books](https://blog-page.finziai01.workers.dev/compare/finzi-vs-zoho-books/)
+- [Finzi AI vs ClearTax](https://blog-page.finziai01.workers.dev/compare/finzi-vs-cleartax/)
+- [About FARATECH TECHNOLOGIES](https://blog-page.finziai01.workers.dev/about/)
+- [Pricing notes](https://blog-page.finziai01.workers.dev/pricing.md)
 
 ## Contact
 

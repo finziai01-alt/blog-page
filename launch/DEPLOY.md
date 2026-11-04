@@ -14,14 +14,20 @@ connect it to Google and Bing so search engines and AI assistants can find it.
    - Framework preset: **None**
    - **Build command:** leave *empty*
    - **Build output directory:** `_deploy`
-5. **Project name:** type `finzi-ai` (this sets the final URL `https://finzi-ai.pages.dev`).
-   - If that name is taken, Cloudflare suggests an available one — pick the nearest, e.g. `finzi-ai-2`.
-   - **Important:** note the final URL, you need it in the next step and for Search Console.
-6. Click **Deploy**. Then open your `.pages.dev` URL. Check:
+5. **Project name:** the deployed project is named `blog-page`, so the live URL is
+   **`https://blog-page.finziai01.workers.dev/`** (Cloudflare assigns a `workers.dev`
+   address; record this exact URL — Search Console, Bing, YouTube and every listing need it).
+6. Click **Deploy**. Then open the URL and check:
    - Homepage loads with the blue hero and the bill demo panel
-   - `your-url.pages.dev/llms.txt`, `/pricing.md`, `/robots.txt` all load
+   - `/llms.txt`, `/pricing.md`, `/robots.txt` all load
    - A wrong URL (e.g. `/xyz`) shows the Finzi 404 page
    - On your phone, the layout stacks properly
+
+> **If any page shows `REPLACE-DOMAIN` or `REPLACE-CONTACT` in the source:** Cloudflare is
+> serving the repo root instead of `_deploy`. Fix: **Workers & Pages → your project →
+> Settings → Builds & deployments → Build output directory = `_deploy`** (framework preset
+> *None*, build command *empty*), then **Retry deployment**. The canonical URL, sitemap,
+> llms.txt and every "Book a demo" button depend on this setting.
 
 Done — the site is live. ✅
 
@@ -32,7 +38,7 @@ Done — the site is live. ✅
 ### Future updates (the normal loop)
 
 1. Edit files in `C:\Users\Praveen\Documents\Finzi-Site` (the source pages, NOT `_deploy`).
-2. Rebuild the deploy folder: `.\configure.ps1 -Domain "finzi-ai.pages.dev" -Contact "contact@finziai.in"`
+2. Rebuild the deploy folder: `.\configure.ps1 -Domain "blog-page.finziai01.workers.dev" -Contact "contact@finziai.in"`
 3. `git add .` → `git commit -m "what changed"` → `git push`
 4. Cloudflare Pages redeploys in ~30 seconds. No dragging, no dashboard.
 
@@ -41,7 +47,7 @@ Done — the site is live. ✅
 ## Part 2 — Google Search Console (feeds Google + helps AI Overviews)
 
 1. Open https://search.google.com/search-console with your Google account.
-2. **Add property → URL prefix** → enter your full site URL (`https://finzi-ai.pages.dev`).
+2. **Add property → URL prefix** → enter your full site URL (`https://blog-page.finziai01.workers.dev`).
 3. Verify with the **HTML file** method: download the verification file Google gives you,
    drop it into the `_deploy` folder, and upload `_deploy` again (Cloudflare Pages → your project
    → Create new deployment → drag the folder). Then click **Verify**.
