@@ -9,9 +9,9 @@ Tick items off as you go. Everything here is free. Nothing here needs a card.
 - [ ] Record the AI-visibility baseline (`launch\AI-VISIBILITY-BASELINE.md`) — do this BEFORE telling anyone about the site — **Gemini: all 20 prompts done ✅ (2026-11-04). Perplexity: 1/20 then anonymous limit. ChatGPT/Claude/Copilot: login walls — need signed-in sessions to finish**
 
 ## Day 2 — Foundation check
-- [ ] Re-check the live site on phone + desktop; fix anything broken
+- [x] Re-check the live site on phone + desktop; fix anything broken — desktop done 2026-11-04: all 18 URLs HTTP 200, zero REPLACE tokens, Lighthouse SEO/accessibility/best-practices 100/100/100 (0 failures), viewport meta on all 14 pages + 9 responsive breakpoints. **Phone: open https://blog-page.finziai01.workers.dev once on your phone and eyeball it.**
 - [ ] Share the link on your WhatsApp status / LinkedIn / X once (first human visitors)
-- [ ] Update the brochure + cold-call playbook footers with the new URL, re-generate PDFs
+- [x] Update the brochure + cold-call playbook footers with the new URL, re-generate PDFs — done 2026-11-04: URL added to all 3 playbook footers + both brochure footers + brochure CTA line; both PDFs regenerated (Edge headless, A4) in `Desktop\Finzi Marketing\`
 
 ## Day 3 — Directories (free listings that AI assistants read)
 Submit the same short description everywhere (copy it from `llms.txt`, first paragraph):
