@@ -8,22 +8,16 @@ connect it to Google and Bing so search engines and AI assistants can find it.
 ## Part 1 — Put the site online (Cloudflare Pages)
 
 1. **Create a free Cloudflare account** — https://dash.cloudflare.com/sign-up (just email + password, no card).
-2. In the dashboard, go to **Workers & Pages → Create → Pages → Upload assets**.
-3. **Project name:** choose `finzi-ai` (the site will live at `https://finzi-ai.pages.dev`).
-   - If the name is taken, Cloudflare shows you the URL it will actually use — pick something like `finziaccounting`.
-   - **Important:** note the final URL it shows, you need it in the next step.
-4. **Build the deploy folder.** Open PowerShell in the site folder and run (replace both values):
-
-   ```powershell
-   .\configure.ps1 -Domain "finzi-ai.pages.dev" -Contact "you@yourmail.com"
-   ```
-
-   - `-Domain` is the exact `.pages.dev` URL from step 3 (no `https://` needed).
-   - `-Contact` is the email that should receive demo requests (this powers every "Book a demo" button and the site footer).
-
-5. Go back to Cloudflare. Drag **everything inside the `_deploy` folder** into the upload area
-   (drag the folder's contents, not the `_deploy` folder itself). Click **Deploy**.
-6. Open your `.pages.dev` URL. Check:
+2. In the dashboard go to **Workers & Pages → Create → Pages → Connect to Git**.
+3. **Authorize GitHub** when asked. If GitHub asks which account, pick **`finziai01-alt`** (the owner of the repo). You should see the `blog-page` repo → select it.
+4. **Build settings** (there is no build step, so both matter):
+   - Framework preset: **None**
+   - **Build command:** leave *empty*
+   - **Build output directory:** `_deploy`
+5. **Project name:** type `finzi-ai` (this sets the final URL `https://finzi-ai.pages.dev`).
+   - If that name is taken, Cloudflare suggests an available one — pick the nearest, e.g. `finzi-ai-2`.
+   - **Important:** note the final URL, you need it in the next step and for Search Console.
+6. Click **Deploy**. Then open your `.pages.dev` URL. Check:
    - Homepage loads with the blue hero and the bill demo panel
    - `your-url.pages.dev/llms.txt`, `/pricing.md`, `/robots.txt` all load
    - A wrong URL (e.g. `/xyz`) shows the Finzi 404 page
@@ -32,7 +26,15 @@ connect it to Google and Bing so search engines and AI assistants can find it.
 Done — the site is live. ✅
 
 > **When you later buy a custom domain** (optional, ~₹800/yr): add it in Cloudflare Pages →
-> Custom domains, then re-run `configure.ps1` with the new domain and upload `_deploy` again.
+> Custom domains, then re-run `configure.ps1` with the new domain and **push** the change
+> (`git add .` → `git commit -m "switch to custom domain"` → `git push`) — Cloudflare redeploys by itself.
+
+### Future updates (the normal loop)
+
+1. Edit files in `C:\Users\Praveen\Documents\Finzi-Site` (the source pages, NOT `_deploy`).
+2. Rebuild the deploy folder: `.\configure.ps1 -Domain "finzi-ai.pages.dev" -Contact "contact@finziai.in"`
+3. `git add .` → `git commit -m "what changed"` → `git push`
+4. Cloudflare Pages redeploys in ~30 seconds. No dragging, no dashboard.
 
 ---
 
