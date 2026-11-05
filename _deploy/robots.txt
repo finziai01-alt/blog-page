@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /_deploy/
 
 Sitemap: https://blog-page.finziai01.workers.dev/sitemap.xml

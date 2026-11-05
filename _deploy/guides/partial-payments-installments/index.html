@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Track Client Part-Payments Without Marking Invoices Paid | Finzi AI</title>
+<meta name="description" content="A client pays in instalments — your books must show exactly that. How to track partial payments honestly so an invoice is never marked fully paid early.">
+<link rel="canonical" href="https://blog-page.finziai01.workers.dev/guides/partial-payments-installments/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Finzi AI">
+<meta property="og:title" content="How to Track Client Part-Payments Without Marking Invoices Paid">
+<meta property="og:description" content="Instalments stacked against the balance, every payment approved by you. The honest way to track partial payments.">
+<meta property="og:url" content="https://blog-page.finziai01.workers.dev/guides/partial-payments-installments/">
+<meta name="twitter:card" content="summary_large_image"><meta property="og:image" content="https://blog-page.finziai01.workers.dev/assets/og.png">
+<meta name="theme-color" content="#1E40AF">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to track client part-payments without marking invoices paid",
+  "description": "A four-step method: record each instalment against the invoice, keep the balance visible, show status as Partial Payment until the balance reaches zero, and reconcile against the bank statement.",
+  "step": [
+    { "@type": "HowToStep", "name": "Record each instalment against the invoice", "text": "Every payment is applied to the invoice it belongs to, with the remaining balance updated each time." },
+    { "@type": "HowToStep", "name": "Keep the balance visible", "text": "The invoice shows how much was received and how much is still owed, not a binary paid/unpaid flag." },
+    { "@type": "HowToStep", "name": "Show status as Partial Payment until zero", "text": "An invoice with money still outstanding reads as a Partial Payment, never as fully paid." },
+    { "@type": "HowToStep", "name": "Reconcile against the bank statement", "text": "Payments found in the statement match against the recorded instalments, so the books agree with the bank." }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://blog-page.finziai01.workers.dev/" },
+    { "@type": "ListItem", "position": 2, "name": "Guide: partial payments", "item": "https://blog-page.finziai01.workers.dev/guides/partial-payments-installments/" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a partial payment in accounting?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A partial payment is a payment that covers only part of an invoice. The invoice stays open for the remaining balance, and the account shows what was received and what is still owed." }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is marking an invoice paid early dangerous?",
+      "acceptedAnswer": { "@type": "Answer", "text": "It overstates revenue and hides money that is still owed. The receivable disappears from view until someone notices the bank balance doesn't match the books." }
+    },
+    {
+      "@type": "Question",
+      "name": "How should instalments be shown to a client?",
+      "acceptedAnswer": { "@type": "Answer", "text": "As a stack against the invoice: each instalment recorded, the balance visible, and a status of Partial Payment until the balance reaches zero. Honest books make chasing the remainder easier, not harder." }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I track this with Finzi AI?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Bank statements drop into Finzi, payments match automatically, and a client paying in instalments is stacked and shown honestly as a Partial Payment, never wrongly marked fully paid. Try it free — your first bills are on us." }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-head">
+  <div class="wrap head-inner">
+    <a class="brand" href="/">
+      <svg class="spark" viewBox="0 0 64 64" aria-hidden="true"><path d="M32 12 C35.6 26.2 37.8 28.4 52 32 C37.8 35.6 35.6 37.8 32 52 C28.4 37.8 26.2 35.6 12 32 C26.2 28.4 28.4 26.2 32 12 Z"/></svg>
+      FINZI <em>ai</em>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/for-accountants/">For accountants</a>
+      <a href="/for-businesses/">For businesses</a>
+      <a href="/#how">How it works</a>
+      <a href="/compare/finzi-vs-tally/">Compare</a>
+      <a href="/about/">About</a>
+    </nav>
+    <a class="btn btn-primary btn-sm" href="mailto:contact@finziai.in?subject=Finzi%20AI%20demo%20request">Book a demo</a>
+  </div>
+</header>
+
+<main id="main">
+  <nav class="crumbs wrap" aria-label="Breadcrumb">
+    <ol>
+      <li><a href="/">Home</a></li>
+      <li aria-current="page">Guide: partial payments</li>
+    </ol>
+  </nav>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <h1>How to track a client who pays in instalments — without marking them fully paid.</h1>
+      <p class="lede">The invoice says ₹40,000. The client has paid ₹15,000 twice. Somewhere in your books, that invoice is either honestly open or quietly wrong. Here is how to keep it honest.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap prose">
+      <h2>The two ways this goes wrong</h2>
+      <p>Most accounting tools give an invoice one flag: paid, or unpaid. Reality is a spectrum. A client pays in parts — an advance, then two instalments, then a final amount weeks later. With a binary flag you face two bad options: keep the invoice "unpaid" for weeks while money has actually arrived, or click it "paid" when the last instalment lands and lose the record that the earlier ones were partial. Either way, the books stop describing what happened.</p>
+      <p>The honest representation is simple: <strong>record every instalment against the invoice, and keep the remaining balance visible.</strong> Status reads Partial Payment until the balance is exactly zero.</p>
+
+      <h2>The four-step method</h2>
+      <ol>
+        <li><strong>Record each instalment against its invoice.</strong> Not as a generic "receipt" floating in the ledger — applied to the specific invoice, so the invoice itself tells the story.</li>
+        <li><strong>Keep the balance visible.</strong> Received, outstanding, total — shown together. Anyone reading the entry sees the truth without reconstructing it from the bank.</li>
+        <li><strong>Label it Partial Payment until zero.</strong> The status changes only when the balance reaches zero. Not when a big chunk arrives. Not when you get bored of seeing it open.</li>
+        <li><strong>Reconcile against the bank statement.</strong> When the statement arrives, the instalments you recorded should match the credits in the bank. Anything unmatched is a question to answer, not a number to ignore.</li>
+      </ol>
+
+      <h2>What to demand from your software</h2>
+      <ul>
+        <li>Part-payments applied per invoice, with the balance recalculated each time</li>
+        <li>A status that says Partial Payment while money is outstanding</li>
+        <li>Bank matching that finds instalments automatically and stacks them</li>
+        <li>Approval before any payment action changes your books</li>
+        <li>A view your client can understand — because "you still owe ₹10,000" is easier to hear when the math is on screen</li>
+      </ul>
+
+      <div class="callout">
+        <p><b>Where Finzi AI fits:</b> Bank statements drop in, payments match themselves, and a client paying in instalments is stacked and shown honestly as a Partial Payment — never wrongly marked fully paid. <a href="/features/bank-statement-matching/">See bank statement matching</a> or <a href="mailto:contact@finziai.in?subject=Finzi%20AI%20demo%20request">book a demo</a>.</p>
+      </div>
+
+      <h2>Before and after, honestly</h2>
+      <p><strong>Before:</strong> an invoice marked paid because remembering the truth took too long; the outstanding amount invisible; month-end surprises when the bank disagrees with the books.</p>
+      <p><strong>After:</strong> every instalment recorded against its invoice; the balance visible at a glance; status reading Partial Payment until the day it genuinely isn't; the bank and the books agreeing because they were matched, not assumed.</p>
+
+      <h2>Common questions</h2>
+      <div class="faq">
+        <details>
+          <summary>What is a partial payment in accounting?</summary>
+          <div class="faq-body">
+            <p>A payment that covers only part of an invoice. The invoice stays open for the remaining balance, and the account shows what was received and what is still owed.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Why is marking an invoice paid early dangerous?</summary>
+          <div class="faq-body">
+            <p>It overstates revenue and hides money that is still owed. The receivable disappears from view until someone notices the bank balance doesn't match the books.</p>
+          </div>
+        </details>
+        <details>
+          <summary>How should instalments be shown to a client?</summary>
+          <div class="faq-body">
+            <p>As a stack against the invoice: each instalment recorded, the balance visible, and a status of Partial Payment until the balance reaches zero. Honest books make chasing the remainder easier, not harder.</p>
+          </div>
+        </details>
+        <details>
+          <summary>How do I track this with Finzi AI?</summary>
+          <div class="faq-body">
+            <p>Drop the bank statement into Finzi; payments match automatically and instalments stack as a Partial Payment. Book a demo from this page. Try it free — your first bills are on us.</p>
+          </div>
+        </details>
+      </div>
+
+      <p class="updated">Page updated November 2026 · Related: <a href="/features/bank-statement-matching/">bank statement matching</a> · <a href="/guides/stop-retyping-bills/">stop re-typing bills</a> · <a href="/guides/how-to-handle-company-accounting-with-one-tool/">accounting with one tool</a></p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="cta-band">
+        <div>
+          <h2>Show your client the honest balance.</h2>
+          <p>Bring one invoice with a messy payment history — we'll walk through it on a demo.</p>
+        </div>
+        <div class="btn-row">
+          <a class="btn btn-onblue" href="mailto:contact@finziai.in?subject=Finzi%20AI%20demo%20request">Book a demo
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="/">
+          <svg class="spark" viewBox="0 0 64 64" aria-hidden="true"><path d="M32 12 C35.6 26.2 37.8 28.4 52 32 C37.8 35.6 35.6 37.8 32 52 C28.4 37.8 26.2 35.6 12 32 C26.2 28.4 28.4 26.2 32 12 Z"/></svg>
+          FINZI <em>ai</em>
+        </a>
+        <p class="foot-tag">Bills read. Payments matched. Books honest. The AI accounting assistant built for Indian practices and their clients.</p>
+      </div>
+      <div>
+        <h3>Product</h3>
+        <ul>
+          <li><a href="/#how">How it works</a></li>
+          <li><a href="/features/gst-bill-reading/">GST bill reading</a></li>
+          <li><a href="/features/bank-statement-matching/">Bank statement matching</a></li>
+          <li><a href="/features/approval-first-bookkeeping/">Approval-first bookkeeping</a></li>
+          <li><a href="/guides/how-to-handle-company-accounting-with-one-tool/">Accounting with one tool</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>For you</h3>
+        <ul>
+          <li><a href="/for-accountants/">For accountants</a></li>
+          <li><a href="/for-businesses/">For businesses</a></li>
+          <li><a href="/compare/finzi-vs-tally/">Finzi vs Tally</a></li>
+          <li><a href="/compare/finzi-vs-zoho-books/">Finzi vs Zoho Books</a></li>
+          <li><a href="/compare/finzi-vs-cleartax/">Finzi vs ClearTax</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>More</h3>
+        <ul>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/llms.txt">llms.txt</a></li>
+          <li><a href="/pricing.md">pricing.md</a></li>
+          <li><a href="/sitemap.xml">sitemap.xml</a></li>
+          <li><a href="mailto:contact@finziai.in?subject=Finzi%20AI%20demo%20request">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p>© 2026 FARATECH TECHNOLOGIES · FINZI ai</p>
+      <p>Updated November 2026</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
