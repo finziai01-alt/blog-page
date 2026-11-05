@@ -6,7 +6,7 @@ Tick items off as you go. Everything here is free. Nothing here needs a card.
 - [x] Deploy the site (follow `launch\DEPLOY.md`) — live at https://blog-page.finziai01.workers.dev, all REPLACE tokens gone, verified 2026-11-04
 - [ ] Google Search Console: property added + sitemap submitted + homepage indexing requested — **needs your Google account** (exact steps: `launch\DEPLOY.md` Part 2)
 - [ ] Bing Webmaster Tools: site added (import from GSC) + sitemap submitted — **needs your Microsoft account** (Part 3)
-- [ ] Record the AI-visibility baseline (`launch\AI-VISIBILITY-BASELINE.md`) — do this BEFORE telling anyone about the site — **Gemini: all 20 prompts done ✅ (2026-11-04). Perplexity: 1/20 then anonymous limit. ChatGPT/Claude/Copilot: login walls — need signed-in sessions to finish**
+- [x] Record the AI-visibility baseline (`launch\AI-VISIBILITY-BASELINE.md`) — do this BEFORE telling anyone about the site — **Complete 2026-11-05: Gemini (20, logged out, Day 1) + Perplexity (20, logged in) + ChatGPT (20, logged in) + Claude (20, logged in) = 80 runs. Copilot impossible (Microsoft blocked account creation — needs an existing MS account, same one needed for Bing Webmaster). Headline: 14/80 mention "Finzi", 0/80 describe our product; ChatGPT conflates us with FinzBooks and fabricated a pricing table — see Day-2 read in the file.**
 
 ## Day 2 — Foundation check
 - [x] Re-check the live site on phone + desktop; fix anything broken — desktop done 2026-11-04: all 18 URLs HTTP 200, zero REPLACE tokens, Lighthouse SEO/accessibility/best-practices 100/100/100 (0 failures), viewport meta on all 14 pages + 9 responsive breakpoints. **Phone: open https://blog-page.finziai01.workers.dev once on your phone and eyeball it.**

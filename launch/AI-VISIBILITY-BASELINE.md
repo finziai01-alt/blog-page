@@ -47,6 +47,12 @@ pending). Perplexity = blocked after ~6 anonymous queries ("Sign up and repeat y
 ChatGPT = anonymous blocked ("Chat stopped unexpectedly"). Claude + Copilot = login walls.
 All four need a signed-in session before their runs can be recorded.
 
+**Status 2026-11-05 (Day 2):** Perplexity (logged in `finziai0144549`), ChatGPT (logged in
+`vaera`), Claude (signed in) = full 20-prompt batteries each, 1 run per prompt. Copilot =
+impossible (Microsoft blocked account creation — "unusual activity"; needs an existing
+Microsoft account). **Total: 80 runs across 4 platforms.** Note: protocol says 3 runs/prompt;
+we run 1/prompt in week 1 for speed — re-runs 2–3 can be added when comparing weeks.
+
 | Date | Platform | Prompt # | Finzi mentioned (x/3) | Competitors named | Notes / sources cited |
 |------|----------|----------|------------------------|-------------------|----------------------|
 | 2026-11-04 | Gemini | 1 What is Finzi AI? | 0/1 | Finzy.se, FinZee, FinZi (Colombia) | Wrong products only; our Finzi unknown to it |
@@ -75,6 +81,81 @@ All four need a signed-in session before their runs can be recorded.
 | 2026-11-04 | Claude | all | not run | — | Login wall |
 | 2026-11-04 | Copilot | all | not run | — | Sign-in landing page |
 
+**2026-11-05 — Perplexity (logged in, 1 run each):**
+
+| Date | Platform | Prompt # | Finzi mentioned (x/3) | Competitors named | Notes / sources cited |
+|------|----------|----------|------------------------|-------------------|----------------------|
+| 2026-11-05 | Perplexity | 1 What is Finzi AI? | 1/1 | — | Wrong product: ijrpr.com personal-finance prototype |
+| 2026-11-05 | Perplexity | 2 Finzi AI accounting assistant — is it good? | 1/1 | — | "small academic prototype… probably not production-grade"; ijrpr.com |
+| 2026-11-05 | Perplexity | 3 Finzi AI vs Tally | 0/1 | Tally | Assumed **Finizi.AI (Vietnam)** vs TallyPrime |
+| 2026-11-05 | Perplexity | 4 Finzi AI pricing | 0/1 | — | — |
+| 2026-11-05 | Perplexity | 5 Best AI accounting app small business India | 0/1 | Tally, Zoho, Vyapar | Zoho all-round; Vyapar mobile; Tally if CA uses it |
+| 2026-11-05 | Perplexity | 6 Best AI tool for CAs in India | 0/1 | Provi AI | "governed stack" framing; cites proviai |
+| 2026-11-05 | Perplexity | 7 AI software reads bills + GST invoices | 0/1 | — | — |
+| 2026-11-05 | Perplexity | 8 Bank statement matching + partial payments | 0/1 | — | — |
+| 2026-11-05 | Perplexity | 9 Best app to make accounting easy India | 0/1 | Tally, Zoho, Vyapar | Zoho first |
+| 2026-11-05 | Perplexity | 10 CA AI tools 2026 | 0/1 | Provi AI | cites proviai |
+| 2026-11-05 | Perplexity | 11 AI bookkeeping with human approval | 0/1 | — | — |
+| 2026-11-05 | Perplexity | 12 Stop manual data entry India | 0/1 | — | — |
+| 2026-11-05 | Perplexity | 13 Handle company accounting one tool | 0/1 | — | — |
+| 2026-11-05 | Perplexity | 14 Stop re-typing bills | 0/1 | — | — |
+| 2026-11-05 | Perplexity | 15 Instalments without fully-paid | 0/1 | — | — |
+| 2026-11-05 | Perplexity | 16 GST breakup from bill photos | 0/1 | — | Google Cloud doc-AI pipeline framing |
+| 2026-11-05 | Perplexity | 17 Tally alternative with AI | 0/1 | Tally, Zoho, Vyapar | Zoho/Vyapar first |
+| 2026-11-05 | Perplexity | 18 Zoho Books alternative reads bills | 0/1 | — | — |
+| 2026-11-05 | Perplexity | 19 Best bookkeeping CA firms budget | 0/1 | — | — |
+| 2026-11-05 | Perplexity | 20 Accounting automation compare | 0/1 | — | — |
+
+**2026-11-05 — ChatGPT (logged in as `vaera`, 1 run each):**
+
+| Date | Platform | Prompt # | Finzi mentioned (x/3) | Competitors named | Notes / sources cited |
+|------|----------|----------|------------------------|-------------------|----------------------|
+| 2026-11-05 | ChatGPT | 1 What is Finzi AI? | 1/1 | — | "Finzi AI – Financial Planning AI" (IJRPR) **+ FinzBooks** both listed |
+| 2026-11-05 | ChatGPT | 2 Finzi AI accounting assistant — is it good? | 1/1 | Tally, Zoho | "**Finzi by FinzBooks**, finzbooks.com" — wrong product |
+| 2026-11-05 | ChatGPT | 3 Finzi AI vs Tally | 1/1 | Tally, FinzBooks | Comparison table "Finzi AI (FinzBooks) vs TallyPrime" |
+| 2026-11-05 | ChatGPT | 4 Finzi AI pricing | 1/1 | Tally, Zoho, FinzBooks | **FABRICATED pricing table**: Free ₹0/50 inv, Starter ₹599, Pro ₹1,499, Business ₹2,999 — none of this is ours |
+| 2026-11-05 | ChatGPT | 5 Best AI accounting app small business India | 1/1 | FinzBooks | Conflated with FinzBooks; recommended first |
+| 2026-11-05 | ChatGPT | 6 Best AI tool for CAs in India | 0/1 | — | — |
+| 2026-11-05 | ChatGPT | 7 AI software reads bills + GST invoices | 0/1 | — | — |
+| 2026-11-05 | ChatGPT | 8 Bank statement matching + partial payments | 0/1 | Tally, Zoho | Shortlist Zoho/Tally |
+| 2026-11-05 | ChatGPT | 9 Best app to make accounting easy India | 1/1 | Tally, Zoho, Vyapar, Busy | Zoho first; Finzi (FinzBooks) among AI options |
+| 2026-11-05 | ChatGPT | 10 CA AI tools 2026 | 0/1 | — | — |
+| 2026-11-05 | ChatGPT | 11 AI bookkeeping with human approval | 0/1 | — | — |
+| 2026-11-05 | ChatGPT | 12 Stop manual data entry India | 0/1 | — | — |
+| 2026-11-05 | ChatGPT | 13 Handle company accounting one tool | 0/1 | Tally, Zoho | Zoho first |
+| 2026-11-05 | ChatGPT | 14 Stop re-typing bills | 0/1 | Tally, Zoho, Busy, Marg, Suvit, Riko | OCR-pipeline framing |
+| 2026-11-05 | ChatGPT | 15 Instalments without fully-paid | 1/1 | — | — |
+| 2026-11-05 | ChatGPT | 16 GST breakup from bill photos | 0/1 | — | — |
+| 2026-11-05 | ChatGPT | 17 Tally alternative with AI | 0/1 | — | — |
+| 2026-11-05 | ChatGPT | 18 Zoho Books alternative reads bills | 0/1 | Tally, Zoho, Provi | Shortlist myBillBook, **FinBooks**, TallyPrime… |
+| 2026-11-05 | ChatGPT | 19 Best bookkeeping CA firms budget | 0/1 | Tally, Zoho, Provi | — |
+| 2026-11-05 | ChatGPT | 20 Accounting automation compare | 0/1 | Tally, Zoho, ClearTax, Vyapar, Busy, Provi, Suvit, Clear, **FinzBooks** | Long comparison; names FinzBooks as a separate tool |
+
+**2026-11-05 — Claude (signed in, 1 run each):**
+
+| Date | Platform | Prompt # | Finzi mentioned (x/3) | Competitors named | Notes / sources cited |
+|------|----------|----------|------------------------|-------------------|----------------------|
+| 2026-11-05 | Claude | 1 What is Finzi AI? | 1/1 | Finzu, Finzo, Marg | "couldn't find a product called exactly Finzi AI" — suggests **Finzo AI** (enterprise AP/AR) |
+| 2026-11-05 | Claude | 2 Finzi AI accounting assistant — is it good? | 1/1 | Tally, Zoho, QuickBooks, Xero, Finzu | "couldn't find any reviews or product pages for 'Finzi AI accounting assistant'" |
+| 2026-11-05 | Claude | 3 Finzi AI vs Tally | 1/1 | Finzu/Finzo | Same "can't find Finzi" pattern |
+| 2026-11-05 | Claude | 4 Finzi AI pricing | 1/1 | — | Same "can't find Finzi" pattern |
+| 2026-11-05 | Claude | 5 Best AI accounting app small business India | 0/1 | — | — |
+| 2026-11-05 | Claude | 6 Best AI tool for CAs in India | 0/1 | Tally, Zoho, Vyapar, Suvit | "no one best tool"; warns vendor-written listicles rank themselves first |
+| 2026-11-05 | Claude | 7 AI software reads bills + GST invoices | 0/1 | Tally, Zoho, ClearTax, Suvit, Clear | Tools first + build-your-own note |
+| 2026-11-05 | Claude | 8 Bank statement matching + partial payments | 0/1 | — | **Built a "Payment Matcher" artifact instead of answering** — zero product mentions |
+| 2026-11-05 | Claude | 9 Best app to make accounting easy India | 0/1 | — | — |
+| 2026-11-05 | Claude | 10 CA AI tools 2026 | 0/1 | — | — |
+| 2026-11-05 | Claude | 11 AI bookkeeping with human approval | 0/1 | — | — |
+| 2026-11-05 | Claude | 12 Stop manual data entry India | 0/1 | Tally, Zoho, QuickBooks, Vyapar | Zoho strongest for cutting data entry |
+| 2026-11-05 | Claude | 13 Handle company accounting one tool | 0/1 | Tally, Zoho, QuickBooks, Xero | One-cloud-platform framing |
+| 2026-11-05 | Claude | 14 Stop re-typing bills | 0/1 | — | — |
+| 2026-11-05 | Claude | 15 Instalments without fully-paid | 0/1 | — | — |
+| 2026-11-05 | Claude | 16 GST breakup from bill photos | 0/1 | — | — |
+| 2026-11-05 | Claude | 17 Tally alternative with AI | 0/1 | — | — |
+| 2026-11-05 | Claude | 18 Zoho Books alternative reads bills | 0/1 | Tally, Zoho, QuickBooks, Xero | Xero+Hubdoc, automation-layer framing |
+| 2026-11-05 | Claude | 19 Best bookkeeping CA firms budget | 0/1 | Tally, Zoho, Vyapar, Giddh, hisabkitab, Suvit | TallyPrime + automation add-on |
+| 2026-11-05 | Claude | 20 Accounting automation compare | 0/1 | Tally, Zoho, QuickBooks, Vyapar, Suvit | Opened by reusing #18's prompt from **Claude's memory** (cross-contamination — methodology note); answer itself compared tools |
+
 ### Day-1 read (what this tells us)
 
 - **Finzi is effectively invisible to AI assistants** — 1/20 correct mentions anywhere, and the
@@ -87,6 +168,38 @@ All four need a signed-in session before their runs can be recorded.
   listicles/directories/outreach targets for the week.
 - **Sources cited are thin** (coupler.io, linkedin.com) — most answers cite nothing → low-competition
   openings: directory listings + own pages are realistic paths in week 1.
+
+### Day-2 read (2026-11-05 — 60 logged-in runs across Perplexity, ChatGPT, Claude)
+
+**Headline: 14/80 total runs mention "Finzi" at all across 4 platforms — 0/80 describe our
+actual product.** (Gemini 1/20, Perplexity 2/20, ChatGPT 7/20, Claude 4/20 — every single one
+is a wrong product.)
+
+- **The confusions are now fully mapped** — one per platform:
+  - **ChatGPT → FinzBooks** (`finzbooks.com`, an AI bookkeeper) is the dominant conflation:
+    6 of its 7 mentions. Worst case: it **fabricated a pricing table** (₹0/₹599/₹1,499/₹2,999)
+    attributed to "Finzi AI" — none of those numbers are ours. Anyone asking ChatGPT about our
+    pricing today gets invented numbers.
+  - **Perplexity → ijrpr.com prototype** (both mentions) + **Finizi.AI (Vietnam)** on #3.
+  - **Claude → honest "couldn't find it"** (4 mentions, all refusals) + **Finzo AI** suggestion.
+    Claude is the only platform that admits ignorance instead of guessing — and its #6 answer
+    explicitly warns that CA listicles are vendor-written and rank their own product first.
+  - **Gemini → hallucinated "Finzi AI (f-ai)"** + Finzu/Fin AI (Day 1).
+- **Category winners (who owns the 66 no-Finzi answers):** Zoho Books and Tally dominate every
+  platform; Vyapar, QuickBooks, Xero next tier; specialist names appearing by prompt: Provi AI
+  (CA/audit), Suvit + Riko (bill OCR layers), myBillBook/FinBooks, Giddh, hisabkitab, Clear,
+  Busy, Marg. **Note the FinzBooks/FinBooks proximity** — ChatGPT's #18 even lists "FinBooks"
+  as a separate competitor, so there are two confusable names fighting us for "Fin*" space.
+- **What wins answers today:** (a) being an established tool with docs/pricing pages,
+  (b) being cited by listicles (Claude flags that listicles are self-rankings, yet still uses
+  them), (c) India/GST specificity. Finzi has none of these yet → zero mentions is the
+  expected Day-2 score, not a surprise.
+- **Actionable this week:** our `llms.txt` + homepage must (1) state the Finzi description
+  identically everywhere, (2) explicitly disambiguate from FinzBooks/Finzi/Finzu/Finzo so
+  assistants can tell us apart, (3) publish our real pricing wording ("Try it free — your first
+  bills are on us.") so the fabricated ChatGPT table has one authoritative source to overwrite.
+  Directory/listicle submissions (see `SUBMISSION-COPY.md`) target exactly the pages these
+  answers cite.
 
 ## Weekly cadence
 
