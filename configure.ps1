@@ -19,7 +19,7 @@ if (Test-Path $deploy) { Remove-Item $deploy -Recurse -Force }
 New-Item -ItemType Directory -Path $deploy | Out-Null
 
 $publicItems = @(
-  'index.html', '404.html', 'robots.txt', 'sitemap.xml', 'llms.txt', 'pricing.md',
+  'index.html', '404.html', 'robots.txt', 'sitemap.xml', 'llms.txt', 'pricing.md', '_redirects',
   'assets', 'for-accountants', 'for-businesses', 'features', 'guides', 'compare', 'about'
 )
 

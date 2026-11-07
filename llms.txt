@@ -30,22 +30,23 @@
 
 ## Key pages
 
-- [Home](https://blog-page.finziai01.workers.dev/): overview and how it works
-- [For accountants](https://blog-page.finziai01.workers.dev/for-accountants/): client bookkeeping without re-keying
-- [For businesses](https://blog-page.finziai01.workers.dev/for-businesses/): everyday books, current and honest
-- [GST bill reading](https://blog-page.finziai01.workers.dev/features/gst-bill-reading/)
-- [Bank statement matching](https://blog-page.finziai01.workers.dev/features/bank-statement-matching/)
-- [Approval-first bookkeeping](https://blog-page.finziai01.workers.dev/features/approval-first-bookkeeping/)
-- [Guide: how to handle your company accounting with one tool](https://blog-page.finziai01.workers.dev/guides/how-to-handle-company-accounting-with-one-tool/)
-- [Guide: how to stop re-typing bills into your accounting software](https://blog-page.finziai01.workers.dev/guides/stop-retyping-bills/)
-- [Guide: how to track part-payments without marking invoices paid](https://blog-page.finziai01.workers.dev/guides/partial-payments-installments/)
-- [Guide: how to read GST breakup from bill photos automatically](https://blog-page.finziai01.workers.dev/guides/gst-bill-photos-ocr/)
-- [Finzi AI vs Tally](https://blog-page.finziai01.workers.dev/compare/finzi-vs-tally/)
-- [Finzi AI vs Zoho Books](https://blog-page.finziai01.workers.dev/compare/finzi-vs-zoho-books/)
-- [Finzi AI vs ClearTax](https://blog-page.finziai01.workers.dev/compare/finzi-vs-cleartax/)
-- [About FARATECH TECHNOLOGIES](https://blog-page.finziai01.workers.dev/about/)
-- [Pricing notes](https://blog-page.finziai01.workers.dev/pricing.md)
+- [Home](https://www.finziai.in/): overview and how it works
+- [For accountants](https://www.finziai.in/for-accountants/): client bookkeeping without re-keying
+- [For businesses](https://www.finziai.in/for-businesses/): everyday books, current and honest
+- [GST bill reading](https://www.finziai.in/features/gst-bill-reading/)
+- [Bank statement matching](https://www.finziai.in/features/bank-statement-matching/)
+- [Approval-first bookkeeping](https://www.finziai.in/features/approval-first-bookkeeping/)
+- [Guide: how to handle your company accounting with one tool](https://www.finziai.in/guides/how-to-handle-company-accounting-with-one-tool/)
+- [Guide: how to stop re-typing bills into your accounting software](https://www.finziai.in/guides/stop-retyping-bills/)
+- [Guide: how to track part-payments without marking invoices paid](https://www.finziai.in/guides/partial-payments-installments/)
+- [Guide: how to read GST breakup from bill photos automatically](https://www.finziai.in/guides/gst-bill-photos-ocr/)
+- [Finzi AI vs Tally](https://www.finziai.in/compare/finzi-vs-tally/)
+- [Finzi AI vs Zoho Books](https://www.finziai.in/compare/finzi-vs-zoho-books/)
+- [Finzi AI vs ClearTax](https://www.finziai.in/compare/finzi-vs-cleartax/)
+- [About FARATECH TECHNOLOGIES](https://www.finziai.in/about/)
+- [Pricing notes](https://www.finziai.in/pricing.md)
 
 ## Contact
 
 - Book a demo through the website. Email: contact@finziai.in
+

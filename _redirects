@@ -1,0 +1,2 @@
+# Redirect all traffic from workers.dev to canonical domain
+/*  https://www.finziai.in/:splat  301

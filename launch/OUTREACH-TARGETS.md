@@ -35,6 +35,49 @@ don't publish.
 Several listicles above still list it (volopay, 21degrees). A "your table has a dead entry —
 here's the current replacement" note gets replies.
 
+## A2. Verified contact emails (found 2026-11-06 via Exa)
+
+| # | Site | Contact | Email | Notes |
+|---|------|---------|-------|-------|
+| 1 | thewealthblog.in | Om Patel (founder) | thewealthblog@gmail.com | Contact page published it |
+| 3 | finodeal.com | Kapil Pathak | finodeal.com@gmail.com | Privacy policy + contact page |
+| 4 | inventiva.co.in | Editorial desk | editor@inventiva.co.in | Also info@inventiva.co.in for features |
+| 5 | turia.in | Turia team | contact@turia.in | Competitor — still list them honestly |
+| 6 | ampcome.com | Sarfraz Nawaz (CEO) | info@ampcome.com | — |
+| 9 | vidur.in | VIDUR team | support@vidur.in | — |
+| 11 | proviai.in | CA Arun Singh | (site contact form) | — |
+| 12 | lekhakar.in | Lekhakar | info@lekhakar.in | Also sales@lekhakar.in |
+| 13 | 21degrees.in | Abhineet Bhardwaj (founder) | abhineet@21degrees.in | Direct founder email |
+| 15 | taxaj.com | Sony Garg | connect@taxaj.com | — |
+| 8 | camonk.com | CA Monk | support@camonk.com | — |
+| 2 | incbusiness.in | Jhanvi Shah | (author page only) | LinkedIn: /in/jhanviwrites |
+| 7 | qosh.ai | Aditya Bajaj | (site contact) | Competitor blog |
+| 10 | coraa.ai | CORAA team | (site contact) | Competitor blog |
+| 14 | volopay.com | — | (site contact) | Stale article, accuracy hook |
+| 16 | khatabook.com | — | (site contact) | Large reach |
+| 17 | taxone.vyapar.com | — | (site contact) | Competitor blog |
+
+## A3. The outreach email (send from your own mail, 1:1, never bulk)
+
+Subject: *Correction + a new tool for your [article title] list*
+
+> Hi [Name],
+>
+> I read your [article title] piece — the QuickBooks India row caught my eye since Intuit
+> shut it down on 1 Jul 2023; happy to send a source if useful.
+>
+> I'm building Finzi AI (finziai.in): an AI assistant that reads Indian GST bills and bank
+> statements and proposes entries a human approves before anything saves. Approval-first,
+> runs in the browser, no install. Try it free — your first bills are on us. One line for
+> your table: "Finzi AI — bill reading + bank matching with human approval (India/GST)".
+>
+> If you ever update the list, I'd be grateful for a look. Either way, keep up the good work.
+>
+> — [Your name], FARATECH TECHNOLOGIES · contact@finziai.in · https://blog-page.finziai01.workers.dev
+
+Rules: one email per person, no follow-up spam (one polite bump after 5 days max), never
+claim a ranking or customer count, no attachments on first contact.
+
 ## B. Directories — Day 3 submissions (same description everywhere)
 
 Copy from `llms.txt` first paragraph. Also submit to:
