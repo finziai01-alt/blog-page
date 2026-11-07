@@ -73,7 +73,7 @@ Subject: *Correction + a new tool for your [article title] list*
 >
 > If you ever update the list, I'd be grateful for a look. Either way, keep up the good work.
 >
-> — [Your name], FARATECH TECHNOLOGIES · contact@finziai.in · https://blog-page.finziai01.workers.dev
+> — [Your name], FARATECH TECHNOLOGIES · contact@finziai.in · https://www.finziai.in/
 
 Rules: one email per person, no follow-up spam (one polite bump after 5 days max), never
 claim a ranking or customer count, no attachments on first contact.

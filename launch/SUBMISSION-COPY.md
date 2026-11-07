@@ -37,7 +37,7 @@ ratings, or prices.
 - Runs in the browser — phone, tablet, laptop; no install, no forms.
 - Scheduled email reminders for due dates.
 - Pricing: "Try it free — your first bills are on us." (No other pricing published.)
-- Maker: FARATECH TECHNOLOGIES. Contact: contact@finziai.in. Site: https://blog-page.finziai01.workers.dev
+- Maker: FARATECH TECHNOLOGIES. Contact: contact@finziai.in. Site: https://www.finziai.in/
 
 ## Per-directory notes
 

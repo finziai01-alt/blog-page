@@ -14,7 +14,7 @@ Finzi AI — Bills read. Payments matched. Books honest. (50s demo)
 ```
 Finzi AI is an AI accounting assistant for Indian accountants and small businesses. Photograph a bill — Finzi reads the vendor, invoice number, GST breakup and total in seconds. Nothing enters your books without your approval. Drop in a bank statement and it matches itself, with instalments tracked honestly as partial payments.
 
-Try it free — your first bills are on us. → https://blog-page.finziai01.workers.dev
+Try it free — your first bills are on us. → https://www.finziai.in/
 
 Book a demo: contact@finziai.in
 
@@ -42,7 +42,7 @@ Stop typing bills into your books | Finzi AI #Shorts
 ```
 Bills piling up? Finzi AI reads your bill in seconds — vendor, invoice number, GST, total — and nothing saves without your approval. Part-payments tracked honestly.
 
-Try it free — your first bills are on us. → https://blog-page.finziai01.workers.dev
+Try it free — your first bills are on us. → https://www.finziai.in/
 
 #Shorts #FinziAI #AccountingAI #GST #SmallBusinessIndia #CAIndia
 ```
@@ -50,7 +50,7 @@ Try it free — your first bills are on us. → https://blog-page.finziai01.work
 ## 3. Pinned comment (pin on BOTH videos)
 
 ```
-Try it free — your first bills are on us. → https://blog-page.finziai01.workers.dev
+Try it free — your first bills are on us. → https://www.finziai.in/
 ```
 
 ## 4. Optional extras (same session, more surface area)
@@ -64,7 +64,7 @@ Try it free — your first bills are on us. → https://blog-page.finziai01.work
 ## 5. Channel setup
 
 - Channel name: **Finzi AI** · handle: `@finziai` (or closest free)
-- Description: `Bills read. Payments matched. Books honest. AI accounting assistant for Indian CAs and small businesses. Approval-first. Try it free — your first bills are on us. → https://blog-page.finziai01.workers.dev`
+- Description: `Bills read. Payments matched. Books honest. AI accounting assistant for Indian CAs and small businesses. Approval-first. Try it free — your first bills are on us. → https://www.finziai.in/`
 - Link: the site URL (site link on channel = another citable entity signal for AI platforms)
 
 ## Ground rules
