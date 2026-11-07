@@ -15,22 +15,16 @@ Tick items off as you go. Everything here is free. Nothing here needs a card.
 
 ## Day 3 — Directories (free listings that AI assistants read)
 Submit the same short description everywhere (copy it from `llms.txt`, first paragraph):
-- [ ] Product Hunt — create the product page now, launch later when you want the spike: https://www.producthunt.com
-      (2026-11-06: bot check cleared; submission at /posts/new needs login — offers LinkedIn/GitHub/X sign-in, user must complete)
-- [ ] SaaSHub: https://www.saashub.com/submit → real form is /services/submit; "You need to register" — user signup needed
-- [ ] AlternativeTo: OLD URL /manage/add/ is 404. Current flow: sign up (email/GitHub/Apple; Google disabled), verify email, then
-      user menu → "Suggest new application" (→ /manage-item/). Add as alternative to Tally & Zoho Books after approval.
-      Free queue = months; $5 priority exists but budget is ₹0 so skip it.
-- [x] SoftwareSuggest (India): SUBMITTED 2026-11-06 — name/email/org/phone/city/employees/customers(1-25)/category "AI Accounting"/
-      5 competitors (Zoho Books, QuickBooks Online, Xero, provi Ai, Wave). Verification email sent to contact@finziai.in → CLICK IT.
-- [ ] GetApp — /join-us is dead; "Get listed" now routes to https://www.g2.com/products/new (same as Capterra)
-- [ ] Capterra — /vendors/ now routes to https://www.g2.com/products/new (G2 Digital Markets)
-- [ ] G2: https://www.g2.com/products/new — 2026-11-06: bot check cleared; account created via "Send me a sign up link" →
-      one-time sign-up link sent to contact@finziai.in → CLICK IT, then complete product listing. One G2 account covers
-      G2 + Capterra + GetApp + Software Advice.
-- [ ] Crunchbase (company page): /v5/signup + /signup are 404. Free registration exists at /register (email+password, or
-      Google/LinkedIn OAuth — OAuth hit LinkedIn password prompt, user must finish). Plans are paid; company profile creation
-      is free after register.
+- [ ] Product Hunt — https://www.producthunt.com
+      (2026-11-07: Cloudflare cleared; /posts/new needs social sign-in — LinkedIn/GitHub/X all require passwords I can't enter. PAUSED awaiting your login.)
+- [ ] SaaSHub: https://www.saashub.com/submit → "You need to register" — user signup needed
+- [ ] AlternativeTo: OLD /manage/add/ is 404. Current: https://alternativeto.net/signup
+      (2026-11-07: form open; username "Finzi AI" + email contact@finziai.in filled; YOU set password + click Create account + verify email, then user menu → "Suggest new application")
+- [x] SoftwareSuggest (India): SUBMITTED — verification email sent to contact@finziai.in (RE-SENT 2026-11-07 after first expired)
+- [ ] GetApp — routes to https://www.g2.com/products/new (same as Capterra)
+- [ ] Capterra — routes to https://www.g2.com/products/new
+- [ ] G2: https://www.g2.com/products/new — magic link re-sent to contact@finziai.in 2026-11-07 (first expired). CLICK IT, then I fill product listing with https://www.finziai.in/ as website.
+- [ ] Crunchbase: https://www.crunchbase.com/register (2026-11-07: email/first/last filled; YOU set password + click Register + verify email, then create company page for FARATECH TECHNOLOGIES)
 
 ## Day 4 — YouTube (your videos are already made)
 - [ ] Create the Finzi AI YouTube channel (or use existing)
